@@ -54,8 +54,6 @@ int main()
 		TranslateMessage(&msg);
 		DispatchMessage(&msg);
 	}
-
-	return msg.wParam;
 }
 
 LRESULT CALLBACK WndProc(HWND hwnd, UINT message, WPARAM wparam, LPARAM lparam)
